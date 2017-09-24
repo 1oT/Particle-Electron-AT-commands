@@ -35,8 +35,7 @@ void loop() {
 	}
 }
 
-int parseResponse(int type, const char* buf, int len, int* point)
-{
+int parseResponse(int type, const char* buf, int len, int* point) {
 
 	char line[1024+64];
 	strncpy(line, buf, len);
